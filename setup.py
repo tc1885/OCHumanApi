@@ -11,7 +11,7 @@ ext_modules = [
         'ochumanApi._mask',
         sources=['ochumanApi/maskApi.c', 'ochumanApi/_mask.pyx'],
         include_dirs = [np.get_include(), './'],
-        extra_compile_args=['-Wno-cpp', '-Wno-unused-function', '-std=c99'],
+        extra_compile_args=['-Wno-unused-function', '-std=c99'],
     )
 ]
 
